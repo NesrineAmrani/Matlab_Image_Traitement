@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="C:\Users\pc\Documents\MATLAB\Ql-Amrani-Nesrine\gui_projet.prj" location="C:\Users\pc\Documents\MATLAB\Ql-Amrani-Nesrine" name="gui_projet" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration file="C:\Users\pc\Documents\MATLAB\Nesrine Projet Matlab\gui_projet.prj" location="C:\Users\pc\Documents\MATLAB\Nesrine Projet Matlab" name="gui_projet" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>gui_projet</param.appname>
     <param.icon />
     <param.icons />
@@ -87,7 +87,6 @@
     <fileset.resources />
     <fileset.package />
     <fileset.depfun>
-      <file>${MATLAB_ROOT}\examples\deeplearning_shared\peppers.png</file>
       <file>C:\ProgramData\MATLAB\SupportPackages\R2019a\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\IpcamController.p</file>
       <file>C:\ProgramData\MATLAB\SupportPackages\R2019a\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\PreviewController.p</file>
       <file>C:\ProgramData\MATLAB\SupportPackages\R2019a\toolbox\matlab\hardware\supportpackages\ipcamera\+ipcamera\+internal\Utility.p</file>
@@ -99,9 +98,9 @@
       <file>${PROJECT_ROOT}\gui_projet.fig</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\gui_projet\for_testing" name="readme.txt" optional="true">C:\Users\pc\Documents\MATLAB\Ql-Amrani-Nesrine\gui_projet\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\gui_projet\for_testing" name="splash.png" optional="false">C:\Users\pc\Documents\MATLAB\Ql-Amrani-Nesrine\gui_projet\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\gui_projet\for_testing" name="gui_projet.exe" optional="false">C:\Users\pc\Documents\MATLAB\Ql-Amrani-Nesrine\gui_projet\for_testing\gui_projet.exe</file>
+      <file location="${PROJECT_ROOT}\gui_projet\for_testing" name="gui_projet.exe" optional="false">C:\Users\pc\Documents\MATLAB\Nesrine Projet Matlab\gui_projet\for_testing\gui_projet.exe</file>
+      <file location="${PROJECT_ROOT}\gui_projet\for_testing" name="splash.png" optional="false">C:\Users\pc\Documents\MATLAB\Nesrine Projet Matlab\gui_projet\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\gui_projet\for_testing" name="readme.txt" optional="true">C:\Users\pc\Documents\MATLAB\Nesrine Projet Matlab\gui_projet\for_testing\readme.txt</file>
     </build-deliverables>
     <workflow />
     <matlab>
